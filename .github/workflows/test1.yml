@@ -1,0 +1,12 @@
+# Copyright 2019 Yoshiya Hinosawa. All rights reserved. Blue Oak license.
+name: test1
+on:
+  push:
+    branches: [master]
+jobs:
+  license-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Check license lines
+      uses: ./
