@@ -1,4 +1,4 @@
-# Copyright 2019 Yoshiya Hinosawa. All rights reserved. Blue Oak license.
+# Copyright 2019 Vinny Manjaly. All rights reserved. Blue Oak license.
 FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get -y install curl git
